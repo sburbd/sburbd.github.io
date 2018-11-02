@@ -1,0 +1,38 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Custom */
+
+.main{
+  height: 500px;
+  width: 300px;
+  border: 1px teal solid
+}
+
+.buttons{
+  font-size: .8em;
+}
+
+.about-div{
+  background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.about-div:hover {
+  background: #ff7b29;
+}
