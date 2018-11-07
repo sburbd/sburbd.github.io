@@ -26,7 +26,7 @@
   font-size: .8em;
 }
 
-.about-div{
+/* .about-div{
   background: #2db34a;
   transition-property: background;
   transition-duration: 1s;
@@ -35,4 +35,12 @@
 
 .about-div:hover {
   background: #ff7b29;
+} */
+
+.visible{
+  background-color: red;
+}
+
+.invisible{
+  background-color: green;
 }
