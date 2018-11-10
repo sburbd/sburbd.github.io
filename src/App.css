@@ -1,5 +1,6 @@
-.App {
+html {
   background-color: #282c34;
+  background-image: linear-gradient(to bottom left, #191926, #598395);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,28 +20,86 @@
 .main{
   height: 500px;
   width: 300px;
-  border: 1px teal solid
+  border: 1px #5ce6b4 solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #5ce6b4;
+  background-color: #202125;
+}
+
+/* Buttons */
+
+#btn-container{
+  margin: 10px;
 }
 
 .buttons{
   font-size: .8em;
-}
+  margin: 0px 5px;
+  border-radius: 5px;
 
-/* .about-div{
-  background: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+  /* No blue border on mac */
+  outline: none;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-.about-div:hover {
-  background: #ff7b29;
-} */
 
 .visible{
-  background-color: red;
+  visibility: visible;
 }
 
 .invisible{
-  background-color: green;
+  display: none;
 }
+
+.active-btn{
+  background-color: #545478;
+  color: #7dfaf2;
+  border: 1px solid #65ffd5;
+  box-shadow: 0px 0px 3px 1px #5ce6b4;
+}
+
+.default-btn{
+  background-color: #31344f;
+  color: #2ff2be;
+  border: 1px solid #65ffd5;
+}
+
+/* Animations */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+animation-name: fadeInDown;
