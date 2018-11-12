@@ -3,13 +3,20 @@ import Content from './Content.js';
 import './App.css';
 
 class App extends Component {
+
+
   render() {
+
+    const divStyle = {
+      height: window.innerHeight
+    };
+
     return (
-      <React.Fragment>
-        <div className='main'>
+      <div className='page' style={divStyle}>
+        <div className='main animated fadeInBottom'>
           <Content />
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

@@ -1,7 +1,12 @@
-html {
+/* Whole page */
+body{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.page {
   background-color: #282c34;
   background-image: linear-gradient(to bottom left, #191926, #598395);
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,16 +14,22 @@ html {
   font-size: calc(10px + 2vmin);
   color: white;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-/* Custom */
+p{
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+/* Main */
 
 .main{
-  height: 500px;
+  height: 400px;
   width: 300px;
   border: 1px #5ce6b4 solid;
   border-radius: 10px;
@@ -30,12 +41,15 @@ html {
 
 #btn-container{
   margin: 10px;
+  padding: 15px 0px;
 }
 
 .buttons{
   font-size: .8em;
-  margin: 0px 5px;
+  margin: 0px 8px;
   border-radius: 5px;
+  width: 90px;
+  font-family: 'Ubuntu', sans-serif;
 
   /* No blue border on mac */
   outline: none;
@@ -69,13 +83,13 @@ html {
 /* Animations */
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
-@-webkit-keyframes fadeInLeft {
+@-webkit-keyframes fadeInBottom {
   0% {
      opacity: 0;
      -webkit-transform: translateY(20px);
@@ -86,7 +100,7 @@ html {
   }
 }
 
-@keyframes fadeInLeft {
+@keyframes fadeInBottom {
   0% {
      opacity: 0;
      transform: translateY(20px);
@@ -97,9 +111,36 @@ html {
   }
 }
 
-.fadeInLeft {
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
+.fadeInBottom {
+  -webkit-animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
 }
 
-animation-name: fadeInDown;
+@-webkit-keyframes fadeIn {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* Section formatting */
+
+.zich-subtitle{
+  font-size: 0.5em;
+}

@@ -4,10 +4,12 @@ class Home extends Component {
   render() {
 
     return(
-    <div className="animated fadeInLeft">
-      homepage
-
-      sdfsf
+    <div className="animated fadeIn">
+      <img src='https://via.placeholder.com/150' alt='profile'></img>
+      <p>Zich</p>
+      <p className='zich-subtitle'>(rhymes with peach)</p>
+      <p>He/Him</p>
+      <p>21</p>
     </div>
     )
   }

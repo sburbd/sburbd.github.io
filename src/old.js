@@ -75,15 +75,4 @@ const d = [
   {id:'projects', label:'Projects', divName: Projects},
 ]
 
-// const dn = [Home, About, Projects]
-//
-// console.log(d)
-// for (var i = 0; i<3; i++){
-//   console.log(dn[i])
-//   Object.assign({key3: "value3"})
-//   dn[i].div = dn[i]
-//   console.log(d)
-// }
-// console.log(d)
-//
-// const DivName = Home
+      /* { this.props.title } */

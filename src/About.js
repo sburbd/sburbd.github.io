@@ -4,8 +4,12 @@ class About extends Component {
   render() {
 
     return(
-    <div className="animated fadeInLeft">
-      project links
+    <div className="animated fadeIn">
+      Basic Info
+      name
+      21
+      homestuck blog
+      web developer
     </div>
     )
   }
