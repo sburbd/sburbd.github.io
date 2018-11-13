@@ -1,0 +1,146 @@
+/* Whole page */
+body{
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.page {
+  background-color: #282c34;
+  background-image: linear-gradient(to bottom left, #191926, #598395);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+p{
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+/* Main */
+
+.main{
+  height: 400px;
+  width: 300px;
+  border: 1px #5ce6b4 solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #5ce6b4;
+  background-color: #202125;
+}
+
+/* Buttons */
+
+#btn-container{
+  margin: 10px;
+  padding: 15px 0px;
+}
+
+.buttons{
+  font-size: .8em;
+  margin: 0px 8px;
+  border-radius: 5px;
+  width: 90px;
+  font-family: 'Ubuntu', sans-serif;
+
+  /* No blue border on mac */
+  outline: none;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.invisible{
+  display: none;
+}
+
+.active-btn{
+  background-color: #545478;
+  color: #7dfaf2;
+  border: 1px solid #65ffd5;
+  box-shadow: 0px 0px 3px 1px #5ce6b4;
+}
+
+.default-btn{
+  background-color: #31344f;
+  color: #2ff2be;
+  border: 1px solid #65ffd5;
+}
+
+/* Animations */
+
+.animated {
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInBottom {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+     opacity: 0;
+     transform: translateY(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
+
+.fadeInBottom {
+  -webkit-animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+     opacity: 0;
+  }
+  100% {
+     opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/* Section formatting */
+
+.zich-subtitle{
+  font-size: 0.5em;
+}
