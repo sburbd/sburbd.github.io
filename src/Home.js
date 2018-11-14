@@ -10,7 +10,7 @@ class Home extends Component {
       <p className='zich-subtitle'>(rhymes with peach)</p>
       <p>He/Him</p>
       <p>21</p>
-      <p>Homestxc,fsduck in 2018</p>
+      <p>Homestxczxcsxcsdc,fsduck in 2018</p>
     </div>
     )
   }
