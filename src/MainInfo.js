@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Home from './Home.js';
 import About from './About.js';
-import Projects from './Projects.js';
+import Links from './Projects.js';
 
 class MainInfo extends Component{
   render() {
     const d = this.props.details
     const actIn = this.props.actIn
-    const el = [Home, About, Projects]
+    const el = [Home, About, Links]
 
     return(
       <div>

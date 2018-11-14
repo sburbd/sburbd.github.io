@@ -1,7 +1,14 @@
 /* Whole page */
 body{
   font-family: 'Ubuntu', sans-serif;
+}
 
+button{
+  outline: none;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .page {
@@ -45,18 +52,13 @@ p{
 }
 
 .buttons{
-  font-size: .8em;
+  font-size: .5em;
+  text-transform: uppercase;
   margin: 0px 8px;
   border-radius: 5px;
-  width: 90px;
+  width: 70px;
+  padding: 8px 0px;
   font-family: 'Ubuntu', sans-serif;
-
-  /* No blue border on mac */
-  outline: none;
-  -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .visible{
@@ -143,4 +145,23 @@ p{
 
 .zich-subtitle{
   font-size: 0.5em;
+}
+
+/* Project Buttons */
+.linkbtns {
+  height: 80px;
+  width: 240px;
+  margin-bottom: 24px;
+}
+
+.hscm{
+  background-image: url('images/hscm.png') ;
+}
+
+.hslang{
+  background-image: url('https://via.placeholder.com/260x80.png') ;
+}
+
+.hsqc{
+  background-image: url('https://via.placeholder.com/260x80/485345.png') ;
 }
