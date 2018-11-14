@@ -5,11 +5,8 @@ class About extends Component {
 
     return(
     <div className="animated fadeIn">
-      Basic Info
-      name
-      21
-      homestuck blog
-      web developer
+      <p>Web dev person</p>
+      <p>other info</p>
     </div>
     )
   }
