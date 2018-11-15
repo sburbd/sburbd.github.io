@@ -17,7 +17,7 @@ class LinkButtons extends Component {
   render() {
     const linkbtns = [
       {name: 'HS Comic Maker', style: 'hscm', url: 'url'},
-      {name: 'HS JPN/KOR study discord', style: 'hslang', url: 'url'},
+      {name: 'HS Chittr gui', style: 'hsch', url: 'url'},
       {name: 'Hiveswap Quirk Converter', style: 'hsqc', url: 'url'}
     ]
 
@@ -33,6 +33,7 @@ class LinkButtons extends Component {
         )
       })
       }
+      <p>All of the code can be viewed on GitHub</p>
       </div>
     )
   }
@@ -42,7 +43,6 @@ class LinkButton extends Component {
   render() {
     const st = this.props.style
     return(
-
       <React.Fragment>
         <button className={'linkbtns ' + this.props.style}>
           {this.props.name}

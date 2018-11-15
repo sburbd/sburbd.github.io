@@ -13,9 +13,9 @@ class Content extends Component{
 
   render() {
     const details = [
-      {id:'home', label:'Home'},
       {id:'about', label:'About'},
-      {id:'projects', label:'Links'},
+      {id:'projects', label:'projects'},
+      {id:'links', label:'links'}
     ]
 
     return(

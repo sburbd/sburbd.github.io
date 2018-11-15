@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import Home from './Home.js';
 import About from './About.js';
-import Links from './Projects.js';
+import Projects from './Projects.js';
+import Links from './Links.js';
+
 
 class MainInfo extends Component{
   render() {
     const d = this.props.details
     const actIn = this.props.actIn
-    const el = [Home, About, Links]
+    const el = [About, Projects, Links]
 
     return(
-      <div>
+      <div id='content'>
         { d.map((details, i) => {
           return(
             <BoxInfo
