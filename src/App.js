@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Content from './Content.js';
 import './App.css';
+import './mediaq.css';
 import './Buttons.css';
 
 class App extends Component {

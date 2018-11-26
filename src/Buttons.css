@@ -33,15 +33,15 @@ button{
 
 .active-btn{
   background-color: #545478;
-  color: #7dfaf2;
-  border: 1px solid #65ffd5;
-  box-shadow: 0px 0px 3px 1px #5ce6b4;
+  color: #E6EFC2;
+  border: 1px solid #E6EFC2;
+  /* box-shadow: 0px 0px 3px 1px #5ce6b4; */
 }
 
 .default-btn{
-  background-color: #31344f;
-  color: #2ff2be;
-  border: 1px solid #65ffd5;
+  /* background-color: #31344f; */
+  /* color: #2ff2be; */
+  /* border: 1px solid #65ffd5; */
 }
 
 /* Animations */

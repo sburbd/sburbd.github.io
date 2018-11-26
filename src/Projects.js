@@ -23,6 +23,7 @@ class LinkButtons extends Component {
 
     return(
       <div>
+        <br/>
       { linkbtns.map((el, i) => {
         return(
           <LinkButton

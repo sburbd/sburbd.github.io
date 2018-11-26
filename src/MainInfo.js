@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Home from './Home.js';
 import About from './About.js';
 import Projects from './Projects.js';
 import Links from './Links.js';
