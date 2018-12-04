@@ -32,16 +32,16 @@ button{
 }
 
 .active-btn{
-  background-color: #545478;
-  color: #E6EFC2;
-  border: 1px solid #E6EFC2;
+  background-color: #5a919f;
+  color: #77e7c9;
+  border: 1px solid #77e7c9;
   /* box-shadow: 0px 0px 3px 1px #5ce6b4; */
 }
 
 .default-btn{
-  /* background-color: #31344f; */
-  /* color: #2ff2be; */
-  /* border: 1px solid #65ffd5; */
+  background-color: #315c6c;
+  color: #77e7c9;
+  border: 1px solid #77e7c9;
 }
 
 /* Animations */

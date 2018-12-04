@@ -16,7 +16,7 @@ body{
   color: white;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  min-height:100%;
+  max-height:100%;
   min-width:100%;
 }
 
@@ -24,9 +24,19 @@ body{
   color: #61dafb;
 }
 
+h2{
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+h4{
+  margin-bottom:10px;
+  margin-top:0px;
+}
+
 p{
   margin: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 /* Main */
