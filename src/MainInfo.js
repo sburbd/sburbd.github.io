@@ -36,7 +36,7 @@ class BoxInfo extends Component{
 
     return(
     <div id={this.props.id}
-    className={(this.props.actIn === this.props.index ? 'visible' : 'invisible')}>
+    className={(this.props.actIn === this.props.index ? 'visible' : 'invisible')} >
 
       { <this.props.divTitle /> }
     </div>

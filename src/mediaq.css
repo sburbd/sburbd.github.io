@@ -1,11 +1,49 @@
+/* PROSPIT THEME */
 @media only screen and (max-width: 650px) {
-    .main {
-        background-color: transparent;
+    .buttons{
+      color: #fcfaba;
     }
+
+    .page {
+      background-image: linear-gradient(to top right, #edc64f, #f16e24);
+    }
+
+    .active-btn{
+      background-color: #eda24b;
+      color: #fcfaba;
+      border: 1px solid #fcfaba;
+    }
+
+    .default-btn{
+      background-color: #eda24b;
+      border: 1px solid #fcfaba;
+    }
+
+    .default-btn:hover{
+      background-color: #eda24b;
+      border: 1px solid #fcfaba;
+    }
+
 }
 
-@media only screen and (min-width: 500px) {
-    .main {
+/* DERSE THEME */
+@media only screen and (min-width: 651px) {
+  .buttons{
+    color: #f6c3fa;
+  }
 
-    }
+  .active-btn{
+    background-color: #8e4dc1;
+    border: 1px solid #f9b0ff;
+  }
+
+  .default-btn{
+    background-color: #694f86;
+    border: 1px solid #56ac95;
+  }
+
+  .default-btn:hover{
+    background-color: #3C6A78;
+    border: 1px solid #62C1A8;
+  }
 }

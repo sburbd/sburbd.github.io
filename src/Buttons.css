@@ -1,5 +1,9 @@
 /* Buttons */
 
+a{
+  color: #77e7e0;
+}
+
 button{
   outline: none;
   -webkit-user-select: none;
@@ -8,8 +12,13 @@ button{
     user-select: none;
 }
 
+/* button:hover{
+  cursor: pointer;
+} */
+
 #btn-container{
-  padding: 12px 0px;
+  padding: 12px 0px 0px 0px;
+
 }
 
 .buttons{
@@ -29,19 +38,6 @@ button{
 
 .invisible{
   display: none;
-}
-
-.active-btn{
-  background-color: #5a919f;
-  color: #77e7c9;
-  border: 1px solid #77e7c9;
-  /* box-shadow: 0px 0px 3px 1px #5ce6b4; */
-}
-
-.default-btn{
-  background-color: #315c6c;
-  color: #77e7c9;
-  border: 1px solid #77e7c9;
 }
 
 /* Animations */
@@ -101,4 +97,40 @@ button{
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+
+/* Project Buttons */
+.linkbtns {
+  height: 45px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: #315c6c;
+  color: #77e7c9;
+  border: 1px solid #56ac95;
+  border-radius: 5px;
+}
+
+.linkbtns:hover{
+  border: 1px solid #6ED7BB;
+}
+
+/* Specific buttons */
+.hscm{
+  background-image: linear-gradient(to right, #69817a , #436263)
+}
+.hsch{
+
+}
+.hsqc{
+
+}
+.github{
+  background-color: #333;
+}
+.twitter{
+  background-color: #1da1f2;
+}
+.discord{
+  background-color: #7289da;
 }
