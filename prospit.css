@@ -1,19 +1,19 @@
+.page {
+  background-image: linear-gradient(to top right, #f16e24, #edc64f);
+}
+
 .buttons{
   color: #fcfaba;
 }
 
-.page {
-  background-image: linear-gradient(to top right, #edc64f, #f16e24);
-}
-
 .active-btn{
-  background-color: #eda24b;
-  color: #fcfaba;
-  border: 1px solid #fcfaba;
+  color: #de9137;
+  background-color: #fcfaba;
+  border: 1px solid #eb8d36;
 }
 
 .default-btn{
-  background-color: #eda24b;
+  background-color: #eb8d36;
   border: 1px solid #fcfaba;
 }
 
