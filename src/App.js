@@ -14,16 +14,25 @@ class App extends Component {
     };
 
     function switchStylesheets(){
-      var element = document.getElementsByTagName("BODY")[0];
-      element.classList.toggle('fade')
+      var transBg = document.getElementById('transition-color');
+      transBg.classList.toggle('fade')
 
       setTimeout(function(){
-        var element = document.getElementsByTagName("BODY")[0];
+        var transBg = document.getElementById('transition-color');
+        transBg.classList.toggle('fade')
+      }, 500)
+
+      setTimeout(function(){
+        var mainBg = document.getElementById('theme-color');
         var stylesheet = document.getElementById("cssStyles");
         stylesheet.href.includes('prospit') ? stylesheet.setAttribute("href", "derse.css") : stylesheet.setAttribute("href", "prospit.css");
+        mainBg.classList.toggle('fade')
+      }, 200)
 
-              element.classList.toggle('fade')
-            }, 200)
+      setTimeout(function(){
+        var mainBg = document.getElementById('theme-color');
+        mainBg.classList.toggle('fade')
+      }, 300)
 
     }
 

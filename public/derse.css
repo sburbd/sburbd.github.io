@@ -1,3 +1,7 @@
+.page{
+  background-image: linear-gradient(to top right, #290f7e, #cd5ad6);
+}
+
 .buttons{
   color: #f6c3fa;
 }
@@ -9,10 +13,10 @@
 
 .default-btn{
   background-color: #694f86;
-  border: 1px solid #56ac95;
+  border: 1px solid #b085f5;
 }
 
 .default-btn:hover{
-  background-color: #3C6A78;
-  border: 1px solid #62C1A8;
+  background-color: #7C4EA4;
+  border: 1px solid #D59BFA;
 }

@@ -12,9 +12,9 @@ button{
     user-select: none;
 }
 
-/* button:hover{
+button:hover{
   cursor: pointer;
-} */
+}
 
 #btn-container{
   padding: 12px 0px 0px 0px;
