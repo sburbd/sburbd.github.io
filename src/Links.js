@@ -32,7 +32,7 @@ class Links extends Component {
 class ContactButton extends Component {
   render() {
     return(
-      <a href={this.props.url} target="_blank">
+      <a href={this.props.url} target="_blank" rel="noopener noreferrer">
         <div className={'linkbtns ' + this.props.style}>
           <p>{this.props.name}</p>
         </div>
@@ -40,6 +40,5 @@ class ContactButton extends Component {
     )
   }
 }
-
 
 export default Links;

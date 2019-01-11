@@ -2,49 +2,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-#theme-color {
-  opacity: 1;
-  transition: opacity 0.4s;
-}
-
-#theme-color.fade {
-  opacity: 0.5;
-}
-
-#transition-color{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(to top right, #DE958C, #96434D);
-  opacity: 0;
-  visibility: hidden;
-  z-index: -10;
-  transition: visibility 1s linear 500ms, opacity 500ms;
-}
-
-#transition-color.fade {
-  visibility: visible;
-  opacity: 0.2;
-  transition: opacity 0.8s;
-  z-index: 1000;
-
-}
-
 a{
   text-decoration: none;
+  font-weight: bold;
+}
+a, button:hover{
+  cursor: pointer;
 }
 .page {
   position: absolute;
@@ -61,18 +28,8 @@ a{
   max-height:100%;
   min-width:100%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-h2{
+h2, h4{
   margin-bottom:5px;
-  margin-top:0px;
-}
-
-h4{
-  margin-bottom:10px;
   margin-top:0px;
 }
 
@@ -94,8 +51,44 @@ p{
   padding: 30px;
   padding-top: 0px;
 }
-
 /* Home */
-.zich-subtitle{
+.subtitle{
   font-size: 0.6em;
+  padding-top: 0px;
+}
+
+/* Buttons */
+button{
+  outline: none;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#btn-container{
+  padding: 12px 0px 0px 0px;
+}
+
+.buttons{
+  text-transform: uppercase;
+  margin: 8px;
+  border-radius: 5px;
+  width: 75px;
+  height: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Project Buttons */
+.linkbtns {
+  height: 45px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.linkbtns:hover{
+  border: 1px solid #6ED7BB;
 }

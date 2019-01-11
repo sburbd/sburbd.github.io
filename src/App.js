@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import Content from './Content.js';
 import './App.css';
-// import './mediaq.css';
-import './Buttons.css';
+import './Animations.css';
 
 class App extends Component {
-
 
   render() {
 
@@ -25,7 +23,17 @@ class App extends Component {
       setTimeout(function(){
         var mainBg = document.getElementById('theme-color');
         var stylesheet = document.getElementById("cssStyles");
-        stylesheet.href.includes('prospit') ? stylesheet.setAttribute("href", "derse.css") : stylesheet.setAttribute("href", "prospit.css");
+
+        if (stylesheet.href.includes('prospit')) {
+          stylesheet.setAttribute("href", "derse.css")
+          document.getElementById('switch').style.display = "block"
+          document.getElementById('switch2').style.display = "none"
+        } else {
+          stylesheet.setAttribute("href", "prospit.css");
+          document.getElementById('switch').style.display = "none"
+          document.getElementById('switch2').style.display = "block"
+        }
+
         mainBg.classList.toggle('fade')
       }, 200)
 
@@ -38,7 +46,8 @@ class App extends Component {
 
     return (
       <div className='page' style={divStyle}>
-        <button className="switcher" onClick={switchStylesheets}>prospit/derse</button>
+        <div id="switch" onClick={switchStylesheets}></div>
+        <div id="switch2" onClick={switchStylesheets}></div>
         <div className='main animated fadeInBottom'>
           <Content />
         </div>
@@ -46,6 +55,5 @@ class App extends Component {
     );
   }
 }
-
 
 export default App;
