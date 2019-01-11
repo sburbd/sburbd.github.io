@@ -1,17 +1,23 @@
+/* page background */
 .page{
+  background-image: -webkit-linear-gradient(bottom left, #290f7e, #cd5ad6);
+  background-image: -o-linear-gradient(bottom left, #290f7e, #cd5ad6);
   background-image: linear-gradient(to top right, #290f7e, #cd5ad6);
 }
 
-.buttons{
-  color: #f6c3fa;
+a{
+  color: #77e7e0;
 }
 
+/* Buttons */
 .active-btn{
+  color: #f9dcf7;
   background-color: #8e4dc1;
   border: 1px solid #f9b0ff;
 }
 
 .default-btn{
+  color: #f6c3fa;
   background-color: #694f86;
   border: 1px solid #b085f5;
 }
@@ -19,4 +25,29 @@
 .default-btn:hover{
   background-color: #7C4EA4;
   border: 1px solid #D59BFA;
+}
+
+.linkbtns{
+  background-image: -webkit-linear-gradient(left, #4f736c, #48747e);
+  background-image: -o-linear-gradient(left, #4f736c, #48747e);
+  background-image: linear-gradient(to right, #4f736c, #48747e);
+  border: 1px solid #56ac95;
+  color: #77e7c9;
+}
+
+/* Specific buttons */
+.github{
+  background-image: none;
+  background-color: #333;
+  color: white;
+}
+.twitter{
+  background-image: none;
+  background-color: #1da1f2;
+  color: white;
+}
+.twitter2{
+  background-image: none;
+  background-color: #7289da;
+  color: white;
 }
