@@ -19,7 +19,6 @@ class LinkButtons extends Component {
       {name: 'HS Comic Maker', style: 'hscm', url: 'https://sburbd.github.io/Homestuck-Comic-Maker'},
       {name: 'Fansim Basemod', style: 'fsbm', url: 'https://github.com/sburbd/friendsim-basemod'},
       {name: 'Fansim Tutorial', style: 'fst', url: 'https://sburbd.github.io/fansim'},
-      {name: 'HS Quirk Converter (wip)', style: 'hsqc', url: 'https://sburbd.github.io/hiveswap-quirk-generator'}
     ]
 
     return(
