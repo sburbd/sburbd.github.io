@@ -5,7 +5,7 @@ class About extends Component {
 
     return(
       <div className="animated fadeIn">
-        <h2>- PEAK HOMESTUCK -</h2>
+        <h2>-PEAK HOMESTUCK-</h2>
         <h4>aka Zich Sburbd</h4>
         <p className='subtitle'>* (where zich rhymes with peach)</p>
         <br />
