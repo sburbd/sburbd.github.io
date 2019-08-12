@@ -6,7 +6,7 @@ class Links extends Component {
     const links = [
       {name: 'Github', style: 'github', url: 'https://github.com/sburbd'},
       {name: 'HS Twitter', style: 'twitter', url: 'https://twitter.com/sburbd'},
-      {name: 'Main Twitter', style: 'twitter2', url: 'https://twitter.com/gayartoo'},
+      {name: 'Main Twitter', style: 'twitter2', url: 'https://twitter.com/sithgender'},
     ]
 
     return(
