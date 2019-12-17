@@ -1,2 +1,2 @@
 # sburbd.github.io
-description
+About/info page for [@sburbd](https://www.twitter.com/sburd) on twitter
